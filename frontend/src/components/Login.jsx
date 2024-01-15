@@ -58,7 +58,7 @@ const Login = () => {
         />
 
         <button onClick={login} style={{ cursor: "pointer" }}>
-          Sign Up
+          Log In
         </button>
       </form>
 
