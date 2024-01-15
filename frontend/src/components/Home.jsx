@@ -20,6 +20,15 @@ const Home = () => {
         <Link to="/my-profile" style={styles.button}>
           My Profile
         </Link>
+        <button
+          style={styles.button}
+          onClick={() => {
+            localStorage.removeItem("userInfo");
+            window.location.href = "/login";
+          }}
+        >
+          Logout
+        </button>
       </div>
     </div>
   );
@@ -42,6 +51,7 @@ const styles = {
     backgroundColor: "#3498db",
     color: "#fff",
     textDecoration: "none",
+    cursor: "pointer",
     borderRadius: "5px",
     fontSize: "16px",
   },
