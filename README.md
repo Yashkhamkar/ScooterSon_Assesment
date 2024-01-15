@@ -1,9 +1,8 @@
 To run this project locally you need to follow below steps:
 1.Clone this repository 
 
-2.cd backend
-3.Once you are in backend run npm install script
-4.Launch http://localhost:5000 on your browser
+2.run npm install script
+3.Launch http://localhost:5000 on your browser
 
 Architecture of this backend :-
 When User registers in this project or when user logins in response user get a token . 
