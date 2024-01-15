@@ -1,0 +1,57 @@
+body {
+  font-family: sans-serif;
+}
+
+.center-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  color: #000;
+}
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Profile.css */
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.profile-info {
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+/* Add more styles as needed */
