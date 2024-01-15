@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     console.log(email, pass);
     try {
-      fetch("http://localhost:5000/api/user/login", {
+      fetch("/api/user/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, pass }),

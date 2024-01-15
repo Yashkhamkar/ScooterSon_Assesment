@@ -18,7 +18,7 @@ const Register = () => {
       return;
     }
     try {
-      fetch("http://localhost:5000/api/user/", {
+      fetch("/api/user/", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ name, email, pass, isAdmin: false }),

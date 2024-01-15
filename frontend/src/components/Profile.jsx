@@ -9,7 +9,7 @@ const Profile = () => {
       window.location.href = "/login";
     }
 
-    fetch("http://localhost:5000/api/user/profile", {
+    fetch("/api/user/profile", {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
