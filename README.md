@@ -21,3 +21,6 @@ If user is normal user he can just access my profile setion and cannot create th
 To implement this i have used jwt .
 
 Also i have used bcrypt to encrypt the password so even a admin doesnt have access to  normal user's password
+
+![archi_diagram](https://github.com/Yashkhamkar/ScooterSon_Assesment/assets/71758380/916326ef-7c7e-4640-ad99-cc0782df70d7)
+
